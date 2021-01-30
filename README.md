@@ -1,6 +1,7 @@
 # Angular4app
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.10.
+
 This App contain ng2-nouislider(https://github.com/tb/ng2-nouislider)
 
 ## Development server
