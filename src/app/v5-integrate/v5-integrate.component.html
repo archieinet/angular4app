@@ -1,0 +1,14 @@
+<form [formGroup]="form1">
+  <h1>FORM 1</h1>
+  <nouislider 
+    [min]="min" 
+    [max]="max" 
+    [step]="0.5" 
+    [(ngModel)]="scrollPos" 
+    [formControl]="form1.controls.single"
+    (ngModelChange)="onChange($event)">
+  </nouislider>
+  <div class="alert alert-info">
+    Current Position: {{scrollPos}}
+  </div>
+</form>
