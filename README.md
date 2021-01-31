@@ -7,6 +7,7 @@ This App is a sample ng2-nouislider(https://github.com/tb/ng2-nouislider), which
 
 ## Steps
 npm i
+
 ng s -o
 
 ## Development server
