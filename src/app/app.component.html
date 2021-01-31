@@ -36,13 +36,14 @@
 </div>
 
 <pre>
-&lt;form [formGroup]=&quot;form1&quot;&gt;&#10;  &lt;nouislider [min]=&quot;0&quot; [max]=&quot;20&quot; [step]=&quot;0.5&quot; [formControl]=&quot;form1.controls.single&quot;&gt;&lt;/nouislider&gt;&#10;&lt;/form&gt;
+&lt;form [formGroup]=&quot;form1&quot;&gt;&#10;  &lt;nouislider [min]=&quot;0&quot; [max]=&quot;200&quot; [step]=&quot;0.5&quot; [formControl]=&quot;form1.controls.single&quot;&gt;&lt;/nouislider&gt;&#10;&lt;/form&gt;
 </pre>
 
 <code>form1.value: {{ form1.value | json }}</code>
 
 <form [formGroup]="form1">
-  <nouislider [min]="0" [max]="20" [step]="0.5" [formControl]="form1.controls.single"></nouislider>
+  <h1>FORM 1</h1>
+  <nouislider [min]="0" [max]="200" [step]="0.5" [formControl]="form1.controls.single"></nouislider>
 </form>
 
 <div class="btn-group">
