@@ -2,7 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.10.
 
-This App is sample ng2-nouislider(https://github.com/tb/ng2-nouislider), which support Angular v4
+This App is a sample ng2-nouislider(https://github.com/tb/ng2-nouislider), which support Angular v4
+
+
+## Steps
+npm i
+ng s -o
 
 ## Development server
 
